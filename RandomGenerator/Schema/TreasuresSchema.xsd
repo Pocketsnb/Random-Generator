@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    id="TreasuresSchema">
+
+  <xs:complexType name="TextProbType">
+    <xs:attribute name="Text" type="xs:string" />
+    <xs:attribute name="Probability" type="xs:int" />
+  </xs:complexType>
+
+  <xs:complexType name="StandardType">
+    <xs:sequence>
+      <xs:element name="Value" maxOccurs="unbounded" type="TextProbType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="DescriptionType">
+    <xs:sequence>
+      <xs:element name="Value" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Description" type="xs:string"/>
+          </xs:sequence>
+          <xs:attribute name="Text" type="xs:string" />
+          <xs:attribute name="Probability" type="xs:int" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="DiceType">
+    <xs:attribute name="DieCount" type="xs:int" />
+    <xs:attribute name="DieType" type="xs:int" />
+    <xs:attribute name="DieMultiplier" type="xs:int" />
+  </xs:complexType>
+
+  <xs:complexType name="DescriptiveDiceType">
+    <xs:attribute name="ObjectType" type="xs:string" />
+    <xs:attribute name="DieCount" type="xs:int" />
+    <xs:attribute name="DieType" type="xs:int" />
+    <xs:attribute name="DieMultiplier" type="xs:int" />
+  </xs:complexType>
+
+  <xs:complexType name="CoinCollectionType">
+    <xs:sequence>
+      <xs:element name="CP" type="DiceType"/>
+      <xs:element name="SP" type="DiceType"/>
+      <xs:element name="EP" type="DiceType"/>
+      <xs:element name="GP" type="DiceType"/>
+      <xs:element name="PP" type="DiceType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="ObjectsType">
+    <xs:sequence>
+      <xs:element name="Gems" type="DescriptiveDiceType"/>
+      <xs:element name="Art" type="DescriptiveDiceType"/>
+      <xs:element name="Magic" maxOccurs="unbounded" type="DescriptiveDiceType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="IndividualType">
+    <xs:sequence>
+      <xs:element name="Value" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Coins" type="CoinCollectionType" />
+          </xs:sequence>
+          <xs:attribute name="Text" type="xs:string" />
+          <xs:attribute name="Probability" type="xs:int" />
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="HordeType">
+    <xs:sequence>
+      <xs:element name="Coins" type="CoinCollectionType" />
+      <xs:element name="Value" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Objects" type="ObjectsType" />
+          </xs:sequence>
+          <xs:attribute name="Text" type="xs:string" />
+          <xs:attribute name="Probability" type="xs:int" />
+        </xs:complexType>
+      </xs:element>
+
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="Treasures">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Gemstones10gp" type="DescriptionType" />
+        <xs:element name="Gemstones50gp" type="DescriptionType" />
+        <xs:element name="Gemstones100gp" type="DescriptionType" />
+        <xs:element name="Gemstones500gp" type="DescriptionType" />
+        <xs:element name="Gemstones1000gp" type="DescriptionType" />
+        <xs:element name="Gemstones5000gp" type="DescriptionType" />
+        <xs:element name="ArtObjects25gp" type="StandardType" />
+        <xs:element name="ArtObjects250gp" type="StandardType" />
+        <xs:element name="ArtObjects750gp" type="StandardType" />
+        <xs:element name="ArtObjects2500gp" type="StandardType" />
+        <xs:element name="ArtObjects7500gp" type="StandardType" />
+        <xs:element name="IndividualTreasure0-4" type="IndividualType" />
+        <xs:element name="IndividualTreasure5-10" type="IndividualType" />
+        <xs:element name="IndividualTreasure11-16" type="IndividualType" />
+        <xs:element name="IndividualTreasure17" type="IndividualType" />
+        <xs:element name="HoardTreasure0-4" type="HordeType" />
+        <xs:element name="HoardTreasure5-10" type="HordeType" />
+        <xs:element name="HoardTreasure11-16" type="HordeType" />
+        <xs:element name="HoardTreasure17" type="HordeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../Schema/NPCsSchema.xsd">
+  <!--From DMG 5e pg 89 Detailed NPCs-->
+  <Appearances>
+    <Value Text="Distinctive jewelry: earrings, necklace, circlet, bracelets" Probability="1" />
+    <Value Text="Piercings" Probability="1" />
+    <Value Text="Flamboyant or outlandish clothes" Probability="1" />
+    <Value Text="Formal, clean clothes" Probability="1" />
+    <Value Text="Ragged, dirty clothes" Probability="1" />
+    <Value Text="Pronounced scar" Probability="1" />
+    <Value Text="Missing teeth" Probability="1" />
+    <Value Text="Missing fingers" Probability="1" />
+    <Value Text="Unusual eye color (or two different colors)" Probability="1" />
+    <Value Text="Tattoos" Probability="1" />
+    <Value Text="Birthmark" Probability="1" />
+    <Value Text="Unusual skin color" Probability="1" />
+    <Value Text="Bald" Probability="1" />
+    <Value Text="Braided beard or hair" Probability="1" />
+    <Value Text="Unusual hair color" Probability="1" />
+    <Value Text="Nervous eye twitch" Probability="1" />
+    <Value Text="Distinctive nose" Probability="1" />
+    <Value Text="Distinctive posture (crooked or rigid)" Probability="1" />
+    <Value Text="Exceptionally beautiful" Probability="1" />
+    <Value Text="Exceptionally ugly" Probability="1" />
+  </Appearances>
+  <Abilities>
+    <Value Text="Strength" Probability="1">
+      <HighDescription>powerful, brawny, strong as an ox</HighDescription>
+      <LowDescription>feeble, scrawny</LowDescription>
+    </Value>
+    <Value Text="Dexterity" Probability="1">
+      <HighDescription>lithe, agile, graceful</HighDescription>
+      <LowDescription>clumsy, fumbling</LowDescription>
+    </Value>
+    <Value Text="Constitution" Probability="1">
+      <HighDescription>hardy, hale, healthy</HighDescription>
+      <LowDescription>sickly, pale</LowDescription>
+    </Value>
+    <Value Text="Intelligence" Probability="1">
+      <HighDescription>studious, learned, inquisitive</HighDescription>
+      <LowDescription>dim-witted, slow</LowDescription>
+    </Value>
+    <Value Text="Wisdom" Probability="1">
+      <HighDescription>perceptive, spiritual, insightful</HighDescription>
+      <LowDescription>oblivious, absentminded</LowDescription>
+    </Value>
+    <Value Text="Charisma" Probability="1">
+      <HighDescription>persuasive, forceful, born leader</HighDescription>
+      <LowDescription>dull, boring</LowDescription>
+    </Value>
+  </Abilities>
+  <Talents>
+    <Value Text="Plays a musical instrument" Probability="1" />
+    <Value Text="Speaks several languages fluently" Probability="1" />
+    <Value Text="Unbelievably lucky" Probability="1" />
+    <Value Text="Perfect memory" Probability="1" />
+    <Value Text="Great with animals" Probability="1" />
+    <Value Text="Great with children" Probability="1" />
+    <Value Text="Great at solving puzzles" Probability="1" />
+    <Value Text="Great at one game" Probability="1" />
+    <Value Text="Great at impersonations" Probability="1" />
+    <Value Text="Draws beautifully" Probability="1" />
+    <Value Text="Paints beautifully" Probability="1" />
+    <Value Text="Sings beautifully" Probability="1" />
+    <Value Text="Drinks everyone under the table" Probability="1" />
+    <Value Text="Expert carpenter" Probability="1" />
+    <Value Text="Expert cook" Probability="1" />
+    <Value Text="Expert dart thrower and rock skipper" Probability="1" />
+    <Value Text="Expert juggler" Probability="1" />
+    <Value Text="Skilled actor and master of disguise" Probability="1" />
+    <Value Text="Skilled dancer" Probability="1" />
+    <Value Text="Knows thieves' cant" Probability="1" />
+  </Talents>
+  <Mannerisims>
+    <Value Text="Prone to singing, whistling, or humming quietly" Probability="1" />
+    <Value Text="Speaks in rhyme or some other peculiar way" Probability="1" />
+    <Value Text="Particularly low or high voice" Probability="1" />
+    <Value Text="Slurs words, lisps, or stutters" Probability="1" />
+    <Value Text="Enunciates overly clearly" Probability="1" />
+    <Value Text="Speaks loudly" Probability="1" />
+    <Value Text="Whispers" Probability="1" />
+    <Value Text="Uses flowery speech or long words" Probability="1" />
+    <Value Text="Frequently uses the wrong word" Probability="1" />
+    <Value Text="Uses colorful oaths and exclamations" Probability="1" />
+    <Value Text="Makes constant jokes or puns" Probability="1" />
+    <Value Text="Prone to predictions of doom" Probability="1" />
+    <Value Text="Fidgets" Probability="1" />
+    <Value Text="Squints" Probability="1" />
+    <Value Text="Stares into the distance" Probability="1" />
+    <Value Text="Chews something" Probability="1" />
+    <Value Text="Paces" Probability="1" />
+    <Value Text="Taps fingers" Probability="1" />
+    <Value Text="Bites fingernails" Probability="1" />
+    <Value Text="Twirls hair or tugs beard" Probability="1" />
+  </Mannerisims>
+  <Interactions>
+    <Value Text="Argumentative" Probability="1" />
+    <Value Text="Honest" Probability="1" />
+    <Value Text="Arrogant" Probability="1" />
+    <Value Text="Hot tempered" Probability="1" />
+    <Value Text="Blustering" Probability="1" />
+    <Value Text="Irritable" Probability="1" />
+    <Value Text="Rude" Probability="1" />
+    <Value Text="Ponderous" Probability="1" />
+    <Value Text="Curious" Probability="1" />
+    <Value Text="Quiet" Probability="1" />
+    <Value Text="Friendly" Probability="1" />
+    <Value Text="Suspicious" Probability="1" />
+  </Interactions>
+  <Ideals>
+    <Value Text="Beauty" Probability="1" />
+    <Value Text="Domination" Probability="1" />
+    <Value Text="Charity" Probability="1" />
+    <Value Text="Greed" Probability="1" />
+    <Value Text="Greater good" Probability="1" />
+    <Value Text="Might" Probability="1" />
+    <Value Text="Life" Probability="1" />
+    <Value Text="Pain" Probability="1" />
+    <Value Text="Respect" Probability="1" />
+    <Value Text="Retribution" Probability="1" />
+    <Value Text="Self-sacrifice" Probability="1" />
+    <Value Text="Slaughter" Probability="1" />
+    <Value Text="Community" Probability="1" />
+    <Value Text="Change" Probability="1" />
+    <Value Text="Fairness" Probability="1" />
+    <Value Text="Creativity" Probability="1" />
+    <Value Text="Honor" Probability="1" />
+    <Value Text="Freedom" Probability="1" />
+    <Value Text="Logic" Probability="1" />
+    <Value Text="Independence" Probability="1" />
+    <Value Text="Responsibility" Probability="1" />
+    <Value Text="No limits" Probability="1" />
+    <Value Text="Tradition" Probability="1" />
+    <Value Text="Whimsy" Probability="1" />
+    <Value Text="Balance" Probability="1" />
+    <Value Text="Aspiration" Probability="1" />
+    <Value Text="Knowledge" Probability="1" />
+    <Value Text="Discovery" Probability="1" />
+    <Value Text="Live and let live" Probability="1" />
+    <Value Text="Glory" Probability="1" />
+    <Value Text="Moderation" Probability="1" />
+    <Value Text="Nation" Probability="1" />
+    <Value Text="Neutrality" Probability="1" />
+    <Value Text="Redemption" Probability="1" />
+    <Value Text="People" Probability="1" />
+    <Value Text="Self-knowledge" Probability="1" />
+  </Ideals>
+  <Bonds>
+    <Value Text="Dedicated to fulfilling a personal life goal" Probability="1" />
+    <Value Text="Protective of close family members" Probability="1" />
+    <Value Text="Protective of colleagues or compatriots" Probability="1" />
+    <Value Text="Loyal to a benefactor, patron, or employer" Probability="1" />
+    <Value Text="Captivated by a romantic interest" Probability="1" />
+    <Value Text="Drawn to a special place" Probability="1" />
+    <Value Text="Protective of a sentimental keepsake" Probability="1" />
+    <Value Text="Protective of a valuable possession" Probability="1" />
+    <Value Text="Out for revenge" Probability="1" />
+    <Value Text="Two Bonds" Probability="1" />
+  </Bonds>
+  <Flaws>
+    <Value Text="Forbidden love or susceptibility to romance" Probability="1" />
+    <Value Text="Enjoys decadent pleasures" Probability="1" />
+    <Value Text="Arrogance" Probability="1" />
+    <Value Text="Envies another creature's possessions or station" Probability="1" />
+    <Value Text="Overpowering greed" Probability="1" />
+    <Value Text="Prone to rage" Probability="1" />
+    <Value Text="Has a powerful enemy" Probability="1" />
+    <Value Text="Specific phobia" Probability="1" />
+    <Value Text="Shameful or scandalous history" Probability="1" />
+    <Value Text="Secret crime or misdeed" Probability="1" />
+    <Value Text="Possession offorbidden lore" Probability="1" />
+    <Value Text="Foolhardy bravery" Probability="1" />
+  </Flaws>
+</NPCs>

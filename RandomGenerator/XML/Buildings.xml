@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Buildings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../Schema/BuildingsSchema.xsd">
+  <!--From DMG 5e pg 113 Random Buildings-->
+  <BuildingType>
+    <Value Text="Residence" Probability="10" />
+    <Value Text="Religious" Probability="2" />
+    <Value Text="Tavern" Probability="3" />
+    <Value Text="Warehouse" Probability="2" />
+    <Value Text="Shop" Probability="3" />
+  </BuildingType>
+  <Residence>
+    <Value Text="Abandoned squat" Probability="2" />
+    <Value Text="Middle-class home" Probability="6" />
+    <Value Text="Upper-class home" Probability="2" />
+    <Value Text="Crowded tenement" Probability="5" />
+    <Value Text="Orphanage" Probability="2" />
+    <Value Text="Hidden slavers' den" Probability="1" />
+    <Value Text="Front for a secret cult" Probability="1" />
+    <Value Text="Lavish, guarded mansion" Probability="1" />
+  </Residence>
+  <ReligiousBuilding>
+    <Value Text="Temple to a good or neutral deity" Probability="10" />
+    <Value Text="Temple to a false deity (run by charlatan priests)" Probability="2" />
+    <Value Text="Home of ascetics" Probability="1" />
+    <Value Text="Abandoned shrine" Probability="2" />
+    <Value Text="Library dedicated to religious study" Probability="2" />
+    <Value Text="Hidden shrine to a fiend or an evil deity" Probability="3" />
+  </ReligiousBuilding>
+  <Tavern>
+    <Value Text="Quiet, low-key bar" Probability="5" />
+    <Value Text="Raucous dive" Probability="4" />
+    <Value Text="Thieves' guild hangout" Probability="1" />
+    <Value Text="Gathering place for a secret society" Probability="1" />
+    <Value Text="Upper-class dining club" Probability="2" />
+    <Value Text="Gambling den" Probability="2" />
+    <Value Text="Caters to specific race or guild" Probability="2" />
+    <Value Text="Members-only club" Probability="1" />
+    <Value Text="Brothel" Probability="2" />
+  </Tavern>
+  <Warehouse>
+    <Value Text="Empty or abandoned" Probability="4" />
+    <Value Text="Heavily guarded, expensive goods" Probability="2" />
+    <Value Text="Cheap goods" Probability="3" />
+    <Value Text="Bulk goods" Probability="4" />
+    <Value Text="Live animals" Probability="1" />
+    <Value Text="Weapons/armor" Probability="2" />
+    <Value Text="Goods from a distant land" Probability="2" />
+    <Value Text="Secret smuggler's den" Probability="1" />
+  </Warehouse>
+  <Shop>
+    <Value Text="Pawnshop" Probability="1" />
+    <Value Text="Smithy" Probability="1" />
+    <Value Text="Herbs/incense" Probability="1" />
+    <Value Text="Carpenter" Probability="1" />
+    <Value Text="Fruits/vegetables" Probability="1" />
+    <Value Text="Weaver" Probability="1" />
+    <Value Text="Dried meats" Probability="1" />
+    <Value Text="Jeweler" Probability="1" />
+    <Value Text="Pottery" Probability="1" />
+    <Value Text="Baker" Probability="1" />
+    <Value Text="Undertaker" Probability="1" />
+    <Value Text="Mapmaker" Probability="1" />
+    <Value Text="Books" Probability="1" />
+    <Value Text="Tailor" Probability="1" />
+    <Value Text="Moneylender" Probability="1" />
+    <Value Text="Ropemaker" Probability="1" />
+    <Value Text="Weaponsfarmor" Probability="1" />
+    <Value Text="Mason" Probability="1" />
+    <Value Text="Chandler" Probability="1" />
+    <Value Text="Scribe" Probability="1" />
+  </Shop>
+</Buildings>

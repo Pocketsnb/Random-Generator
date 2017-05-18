@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Treasures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../Schema/TreasuresSchema.xsd">
+  <!--From DMG 5e pg 133 Treasure Tables -->
+  <Gemstones10gp>
+    <Value Text="Azurite" Probability="1">
+      <Description>opaque mottled deep blue</Description>
+    </Value>
+    <Value Text="Banded agate (" Probability="1">
+      <Description>translucent striped brown, blue, white, or red</Description>
+    </Value>
+    <Value Text="Blue quartz" Probability="1">
+      <Description>transparent pale blue</Description>
+    </Value>
+    <Value Text="Eye agate" Probability="1">
+      <Description>translucent circles of gray, white, brown, blue, or green</Description>
+    </Value>
+    <Value Text="Hematite" Probability="1">
+      <Description>opaque gray-black</Description>
+    </Value>
+    <Value Text="Lapis lazuli" Probability="1">
+      <Description>opaque light and dark blue with yellow flecks</Description>
+    </Value>
+    <Value Text="Malachite" Probability="1">
+      <Description>opaque striated light and dark green</Description>
+    </Value>
+    <Value Text="Moss agate (" Probability="1">
+      <Description>translucent pink or yellow-white with mossy gray or green markings</Description>
+    </Value>
+    <Value Text="Obsidian" Probability="1">
+      <Description>opaque black</Description>
+    </Value>
+    <Value Text="Rhodochrosite" Probability="1">
+      <Description>opaque light pink</Description>
+    </Value>
+    <Value Text="Tiger eye" Probability="1">
+      <Description>translucent brown with golden center</Description>
+    </Value>
+    <Value Text="Turquoise" Probability="1">
+      <Description>opaque light blue-green</Description>
+    </Value>
+  </Gemstones10gp>
+  <Gemstones50gp>
+    <Value Text="Bloodstone" Probability="1">
+      <Description>opaque dark gray with red flecks</Description>
+    </Value>
+    <Value Text="Carnelian" Probability="1">
+      <Description>opaque orange to red-brown</Description>
+    </Value>
+    <Value Text="Chalcedony" Probability="1">
+      <Description>opaque white</Description>
+    </Value>
+    <Value Text="Chrysoprase" Probability="1">
+      <Description>translucent green</Description>
+    </Value>
+    <Value Text="Citrine" Probability="1">
+      <Description>transparent pale yellow-brown</Description>
+    </Value>
+    <Value Text="Jasper" Probability="1">
+      <Description>opaque blue, black, or brown</Description>
+    </Value>
+    <Value Text="Moonstone" Probability="1">
+      <Description>translucent white with pale blue glow</Description>
+    </Value>
+    <Value Text="Onyx" Probability="1">
+      <Description>opaque bands of black and white, or pure black or white</Description>
+    </Value>
+    <Value Text="Quartz" Probability="1">
+      <Description>transparent white, smoky gray, or yellow</Description>
+    </Value>
+    <Value Text="Sardonyx" Probability="1">
+      <Description>opaque bands of red and white</Description>
+    </Value>
+    <Value Text="Star rose quartz" Probability="1">
+      <Description>translucent rosy stone with white star-shaped center</Description>
+    </Value>
+    <Value Text="Zircon" Probability="1">
+      <Description>transparent pale blue-green</Description>
+    </Value>
+  </Gemstones50gp>
+  <Gemstones100gp>
+    <Value Text="Amber" Probability="1">
+      <Description>transparent watery gold to rich gold</Description>
+    </Value>
+    <Value Text="Amethyst" Probability="1">
+      <Description>transparent deep purple</Description>
+    </Value>
+    <Value Text="Chrysoberyl" Probability="1">
+      <Description>transparent yellow-green to pale green</Description>
+    </Value>
+    <Value Text="Coral" Probability="1">
+      <Description>opaque crimson</Description>
+    </Value>
+    <Value Text="Garnet" Probability="1">
+      <Description>transparent red, brown-green, or violet</Description>
+    </Value>
+    <Value Text="jade" Probability="1">
+      <Description>translucent light green, deep green, or white</Description>
+    </Value>
+    <Value Text="jet" Probability="1">
+      <Description>opaque deep black</Description>
+    </Value>
+    <Value Text="Pearl" Probability="1">
+      <Description>opaque lustrous white, yellow, or pink</Description>
+    </Value>
+    <Value Text="Spinel" Probability="1">
+      <Description>transparent red, red-brown, or deep green</Description>
+    </Value>
+    <Value Text="Tourmaline" Probability="1">
+      <Description>transparent pale green , blue, brown, or red</Description>
+    </Value>
+  </Gemstones100gp>
+  <Gemstones500gp>
+    <Value Text="Alexandrite" Probability="1">
+      <Description>transparent dark green</Description>
+    </Value>
+    <Value Text="Aquamarine" Probability="1">
+      <Description>transparent pale blue-green</Description>
+    </Value>
+    <Value Text="Black pearl" Probability="1">
+      <Description>opaque pure black</Description>
+    </Value>
+    <Value Text="Blue spinel" Probability="1">
+      <Description>transparent deep blue</Description>
+    </Value>
+    <Value Text="Peridot" Probability="1">
+      <Description>transparent rich olive green</Description>
+    </Value>
+    <Value Text="Topaz" Probability="1">
+      <Description>transparent golden yellow</Description>
+    </Value>
+  </Gemstones500gp>
+  <Gemstones1000gp>
+    <Value Text="Black opal" Probability="1">
+      <Description>translucent dark green with black mottling and golden flecks</Description>
+    </Value>
+    <Value Text="Blue sapphire" Probability="1">
+      <Description>transparent blue-white to medium blue</Description>
+    </Value>
+    <Value Text="Emerald" Probability="1">
+      <Description>transparent deep bright green</Description>
+    </Value>
+    <Value Text="Fire opal" Probability="1">
+      <Description>translucent fiery red</Description>
+    </Value>
+    <Value Text="Opal" Probability="1">
+      <Description>translucent pale blue with green and golden mottling</Description>
+    </Value>
+    <Value Text="Star ruby" Probability="1">
+      <Description>translucent ruby with white star-shaped center</Description>
+    </Value>
+    <Value Text="Star sapphire" Probability="1">
+      <Description>translucent blue sapphire with white star-shaped center</Description>
+    </Value>
+    <Value Text="Yellow sapphire" Probability="1">
+      <Description>transparent fiery yellow or yellow-green</Description>
+    </Value>
+  </Gemstones1000gp>
+  <Gemstones5000gp>
+    <Value Text="Black sapphire" Probability="1">
+      <Description>translucent lustrous black with glowing highlights</Description>
+    </Value>
+    <Value Text="Diamond" Probability="1">
+      <Description>transparent blue-white, canary, pink, brown, or blue</Description>
+    </Value>
+    <Value Text="Jacinth" Probability="1">
+      <Description>transparent fiery orange</Description>
+    </Value>
+    <Value Text="Ruby" Probability="1">
+      <Description>transparent clear red to deep crimson</Description>
+    </Value>
+  </Gemstones5000gp>
+  <ArtObjects25gp>
+    <Value Text="Silver ewer" Probability="1" />
+    <Value Text="Carved bone statuette" Probability="1" />
+    <Value Text="Small gold bracelet" Probability="1" />
+    <Value Text="Cloth-of-gold vestments" Probability="1" />
+    <Value Text="Black velvet mask stitched with silver thread" Probability="1" />
+    <Value Text="Copper chalice with silver filigree" Probability="1" />
+    <Value Text="Pair of engraved bone dice" Probability="1" />
+    <Value Text="Small mirror set in a painted wooden frame" Probability="1" />
+    <Value Text="Embroidered silk handkerchief" Probability="1" />
+    <Value Text="Gold locket with a painted portrait inside" Probability="1" />
+  </ArtObjects25gp>
+  <ArtObjects250gp>
+    <Value Text="Gold ring set with bloodstones" Probability="1" />
+    <Value Text="Carved ivory statuette" Probability="1" />
+    <Value Text="Large gold bracelet" Probability="1" />
+    <Value Text="Silver necklace with a gemstone pendant" Probability="1" />
+    <Value Text="Bronze crown" Probability="1" />
+    <Value Text="Silk robe with gold embroidery" Probability="1" />
+    <Value Text="Large well-made tapestry" Probability="1" />
+    <Value Text="Bra ss mug with jade inlay" Probability="1" />
+    <Value Text="Box of turquoise animal figurines" Probability="1" />
+    <Value Text="Gold bird cage with electrum filigree" Probability="1" />
+  </ArtObjects250gp>
+  <ArtObjects750gp>
+    <Value Text="Silver chalice set with moonstones" Probability="1" />
+    <Value Text="Silver-plated steellongsword with jet set in hilt" Probability="1" />
+    <Value Text="Carved harp of exotic wood with ivory inlay and zircon gems" Probability="1" />
+    <Value Text="Small gold idol" Probability="1" />
+    <Value Text="Gold dragon comb set with red garnets as eyes" Probability="1" />
+    <Value Text="Bottle stopper cork embossed with gold leaf and set with amethysts" Probability="1" />
+    <Value Text="Ceremonial electrum dagger wit~ a black pearl in the pommel" Probability="1" />
+    <Value Text="Silver and gold brooch" Probability="1" />
+    <Value Text="Obsidian statuette with gold fittings and inlay" Probability="1" />
+    <Value Text="Painted gold war mask" Probability="1" />
+  </ArtObjects750gp>
+  <ArtObjects2500gp>
+    <Value Text="Fine gold chain set with a fire opal" Probability="1" />
+    <Value Text="Old masterpiece painting" Probability="1" />
+    <Value Text="Embroidered silk and velvet mantle set with numerous moonstones" Probability="1" />
+    <Value Text="Platinum bracelet set with a sapphire" Probability="1" />
+    <Value Text="Embroidered glove set with jewel chips" Probability="1" />
+    <Value Text="Jeweled anklet" Probability="1" />
+    <Value Text="Gold music box" Probability="1" />
+    <Value Text="Gold circlet set with four aquamarines" Probability="1" />
+    <Value Text="Eye patch with a mock eye set in blue sapphire and moonstone" Probability="1" />
+    <Value Text="A necklace string of small pink pearls" Probability="1" />
+  </ArtObjects2500gp>
+  <ArtObjects7500gp>
+    <Value Text="Jeweled gold crown" Probability="1" />
+    <Value Text="Jeweled platinum ring" Probability="1" />
+    <Value Text="Small gold statuette set with rubies" Probability="1" />
+    <Value Text="Gold cup set with emeralds" Probability="1" />
+    <Value Text="Gold jewelry box with platinum filigree" Probability="1" />
+    <Value Text="Painted gold child's sarcophagus" Probability="1" />
+    <Value Text="Jade game board with solid gold playing pieces" Probability="1" />
+    <Value Text="Bejeweled ivory drinking horn with gold filigree" Probability="1" />
+  </ArtObjects7500gp>
+  <IndividualTreasure0-4>
+    <Value Text="01-30" Probability="30">
+      <Coins>
+        <CP DieCount="5" DieType="6" DieMultiplier="1" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="0" DieType="0" DieMultiplier="0" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="31-60" Probability="30">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="4" DieType="6" DieMultiplier="1" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="0" DieType="0" DieMultiplier="0" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="61-70" Probability="10">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="3" DieType="6" DieMultiplier="1" />
+        <GP DieCount="0" DieType="0" DieMultiplier="0" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="71-95" Probability="25">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="3" DieType="6" DieMultiplier="1" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="96-100" Probability="5">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="0" DieType="0" DieMultiplier="0" />
+        <PP DieCount="1" DieType="6" DieMultiplier="1" />
+      </Coins>
+    </Value>
+  </IndividualTreasure0-4>
+  <IndividualTreasure5-10>
+    <Value Text="01-30" Probability="30">
+      <Coins>
+        <CP DieCount="4" DieType="6" DieMultiplier="100" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="1" DieType="6" DieMultiplier="10" />
+        <GP DieCount="0" DieType="0" DieMultiplier="0" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="31-60" Probability="30">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="6" DieType="6" DieMultiplier="10" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="2" DieType="6" DieMultiplier="10" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="61-70" Probability="10">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="3" DieType="6" DieMultiplier="10" />
+        <GP DieCount="2" DieType="6" DieMultiplier="10" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="71-95" Probability="25">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="4" DieType="6" DieMultiplier="10" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="96-100" Probability="5">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="2" DieType="6" DieMultiplier="10" />
+        <PP DieCount="3" DieType="6" DieMultiplier="1" />
+      </Coins>
+    </Value>
+  </IndividualTreasure5-10>
+  <IndividualTreasure11-16>
+    <Value Text="01-20" Probability="20">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="4" DieType="6" DieMultiplier="100" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="1" DieType="6" DieMultiplier="100" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="21-35" Probability="15">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="1" DieType="6" DieMultiplier="100" />
+        <GP DieCount="1" DieType="6" DieMultiplier="100" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="36-75" Probability="40">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="2" DieType="6" DieMultiplier="100" />
+        <PP DieCount="1" DieType="6" DieMultiplier="10" />
+      </Coins>
+    </Value>
+    <Value Text="76-100" Probability="25">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="2" DieType="6" DieMultiplier="100" />
+        <PP DieCount="2" DieType="6" DieMultiplier="10" />
+      </Coins>
+    </Value>
+  </IndividualTreasure11-16>
+  <IndividualTreasure17>
+    <Value Text="01-15" Probability="15">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="2" DieType="6" DieMultiplier="1000" />
+        <GP DieCount="8" DieType="6" DieMultiplier="100" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+      </Coins>
+    </Value>
+    <Value Text="16-55" Probability="40">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="1" DieType="6" DieMultiplier="1000" />
+        <PP DieCount="1" DieType="6" DieMultiplier="100" />
+      </Coins>
+    </Value>
+    <Value Text="56-100" Probability="45">
+      <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="1" DieType="6" DieMultiplier="1000" />
+        <PP DieCount="2" DieType="6" DieMultiplier="100" />
+      </Coins>
+    </Value>
+  </IndividualTreasure17>
+  <HoardTreasure0-4>
+    <Coins>
+        <CP DieCount="6" DieType="6" DieMultiplier="100" />
+        <SP DieCount="3" DieType="6" DieMultiplier="100" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="2" DieType="6" DieMultiplier="10" />
+        <PP DieCount="0" DieType="0" DieMultiplier="0" />
+    </Coins>
+    <Value Text="01-06" Probability="6">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="07-16" Probability="10">
+      <Objects>
+        <Gems ObjectType="Gemstones10gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="17-26" Probability="10">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="27-36" Probability="10">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="37-44" Probability="8">
+      <Objects>
+        <Gems ObjectType="Gemstones10gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="45-52" Probability="8">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="53-60" Probability="8">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="61-65" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones10gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="66-70" Probability="5">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="71-75" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="76-78" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones10gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="79-80" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="81-85" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="86-92" Probability="7">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="93-97" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="98-99" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="100" Probability="1">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="2" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+  </HoardTreasure0-4>
+  <HoardTreasure5-10>
+    <Coins>
+        <CP DieCount="2" DieType="6" DieMultiplier="100" />
+        <SP DieCount="2" DieType="6" DieMultiplier="1000" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="6" DieType="6" DieMultiplier="100" />
+        <PP DieCount="3" DieType="6" DieMultiplier="10" />
+    </Coins>
+    <Value Text="01-04" Probability="4">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="05-10" Probability="6">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="11-16" Probability="6">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="17-22" Probability="6">
+      <Objects>
+        <Gems ObjectType="Gemstones100gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="23-28" Probability="6">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="29-32" Probability="4">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="33-36" Probability="4">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="37-40" Probability="4">
+      <Objects>
+        <Gems ObjectType="Gemstones100gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="41-44" Probability="4">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="45-49" Probability="5">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="50-54" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="55-59" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones100gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="60-63" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="64-66" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="67-69" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="70-72" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones100gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="73-74" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="75-76" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="77-78" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="79" Probability="1">
+      <Objects>
+        <Gems ObjectType="Gemstones100gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="80" Probability="1">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="81-84" Probability="4">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects25gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="85-88" Probability="4">
+      <Objects>
+        <Gems ObjectType="Gemstones50gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="89-91" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones100gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="92-94" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="95-96" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones100gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="97-98" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="99" Probability="1">
+      <Objects>
+        <Gems ObjectType="Gemstones100gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="100" Probability="1">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+  </HoardTreasure5-10>
+  <HoardTreasure11-16>
+    <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="4" DieType="6" DieMultiplier="1000" />
+        <PP DieCount="5" DieType="6" DieMultiplier="100" />
+    </Coins>
+    <Value Text="01-03" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="04-06" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="07-09" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects750gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="11-12" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones500gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="13-15" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="16-19" Probability="4">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="20-23" Probability="4">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects750gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="24-26" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones500gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="27-29" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableA" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableB" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="30-35" Probability="6">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="36-40" Probability="5">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects750gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="41-45" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones500gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="46-50" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="51-54" Probability="4">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="55-58" Probability="4">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects750gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="59-62" Probability="4">
+      <Objects>
+        <Gems ObjectType="Gemstones500gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="63-66" Probability="4">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="67-68" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableE" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="69-70" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects750gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableE" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="71-72" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones500gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableE" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="73-74" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableE" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="75-76" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="1" DieMultiplier="1" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="77-78" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects750gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="1" DieMultiplier="1" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="79-80" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones500gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="1" DieMultiplier="1" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="81-82" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableF" DieCount="1" DieType="1" DieMultiplier="1" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="83-85" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="86-88" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects750gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="89-90" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones500gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="91-92" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="93-94" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects250gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableI" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="95-96" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects750gp" DieCount="2" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableI" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="97-98" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones500gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableI" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="99-100" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableI" DieCount="1" DieType="1" DieMultiplier="1" />
+      </Objects>
+    </Value>
+  </HoardTreasure11-16>
+  <HoardTreasure17>
+    <Coins>
+        <CP DieCount="0" DieType="0" DieMultiplier="0" />
+        <SP DieCount="0" DieType="0" DieMultiplier="0" />
+        <EP DieCount="0" DieType="0" DieMultiplier="0" />
+        <GP DieCount="12" DieType="6" DieMultiplier="1000" />
+        <PP DieCount="8" DieType="6" DieMultiplier="1000" />
+    </Coins>
+    <Value Text="01-02" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+      </Objects>
+    </Value>
+    <Value Text="03-05" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="Type2" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="8" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="06-08" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects2500gp" DieCount="1" DieType="10" DieMultiplier="1" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="8" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="09-11" Probability="3">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects7500gp" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="8" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="12-14" Probability="3">
+      <Objects>
+        <Gems ObjectType="Gemstones5000gp" DieCount="1" DieType="8" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableC" DieCount="1" DieType="8" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="15-22" Probability="8">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="23-30" Probability="8">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects2500gp" DieCount="1" DieType="10" DieMultiplier="1" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="31-38" Probability="8">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects7500gp" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="39-46" Probability="8">
+      <Objects>
+        <Gems ObjectType="Gemstones5000gp" DieCount="1" DieType="8" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableD" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="47-52" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableE" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="53-58" Probability="6">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects2500gp" DieCount="1" DieType="10" DieMultiplier="1" />
+        <Magic ObjectType="TableE" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="59-63" Probability="5">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects7500gp" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableE" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="64-68" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones5000gp" DieCount="1" DieType="8" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableE" DieCount="1" DieType="6" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="69" Probability="1">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="70" Probability="1">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects2500gp" DieCount="1" DieType="10" DieMultiplier="1" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="71" Probability="1">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects7500gp" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="72" Probability="1">
+      <Objects>
+        <Gems ObjectType="Gemstones5000gp" DieCount="1" DieType="8" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableG" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="73-74" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="75-76" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects2500gp" DieCount="1" DieType="10" DieMultiplier="1" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="77-78" Probability="2">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects7500gp" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="79-80" Probability="2">
+      <Objects>
+        <Gems ObjectType="Gemstones5000gp" DieCount="1" DieType="8" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableH" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="81-85" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones1000gp" DieCount="3" DieType="6" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableI" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="86-90" Probability="5">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects2500gp" DieCount="1" DieType="10" DieMultiplier="1" />
+        <Magic ObjectType="TableI" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="91-95" Probability="5">
+      <Objects>
+        <Gems ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Art ObjectType="ArtObjects7500gp" DieCount="1" DieType="4" DieMultiplier="1" />
+        <Magic ObjectType="TableI" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+    <Value Text="96-100" Probability="5">
+      <Objects>
+        <Gems ObjectType="Gemstones5000gp" DieCount="1" DieType="8" DieMultiplier="1" />
+        <Art ObjectType="None" DieCount="0" DieType="0" DieMultiplier="0" />
+        <Magic ObjectType="TableI" DieCount="1" DieType="4" DieMultiplier="1" />
+      </Objects>
+    </Value>
+  </HoardTreasure17>
+</Treasures>

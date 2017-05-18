@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    id="MagicItemsSchema">
+
+  <xs:complexType name="TextProbType">
+    <xs:attribute name="Text" type="xs:string" />
+    <xs:attribute name="Probability" type="xs:int" />
+  </xs:complexType>
+
+  <xs:complexType name="StandardType">
+    <xs:sequence>
+      <xs:element name="Value" maxOccurs="unbounded" type="TextProbType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="MagicItems">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TableA" type="StandardType" />
+        <xs:element name="TableB" type="StandardType" />
+        <xs:element name="TableC" type="StandardType" />
+        <xs:element name="TableD" type="StandardType" />
+        <xs:element name="TableE" type="StandardType" />
+        <xs:element name="TableF" type="StandardType" />
+        <xs:element name="TableG" type="StandardType" />
+        <xs:element name="TableH" type="StandardType" />
+        <xs:element name="TableI" type="StandardType" />
+        <xs:element name="Figurine" type="StandardType" />
+        <xs:element name="MagicArmor" type="StandardType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

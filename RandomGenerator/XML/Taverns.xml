@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Taverns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../Schema/TavernsSchema.xsd">
+  <!--Inspired by Basalt's Tavern Name Generator (http://basalt-dnd.tumblr.com/image/159699312022) and DMG 5e pg 113 Tavern Name Generator-->
+  <Specifiers>
+    <Value Text="The" Probability="3" />
+    <Value Text="Ye Olde" Probability="1" />
+  </Specifiers>
+  <Verbs>
+    <Value Text="Dancing" Probability="1" />
+    <Value Text="Leaky" Probability="1" />
+    <Value Text="Shrieking" Probability="1" />
+    <Value Text="Chivalrous" Probability="1" />
+    <Value Text="Lonesome" Probability="1" />
+    <Value Text="Red" Probability="1" />
+    <Value Text="Hideous" Probability="1" />
+    <Value Text="Saucy" Probability="1" />
+    <Value Text="Jolly" Probability="1" />
+    <Value Text="Grinning" Probability="1" />
+    <Value Text="Fancy" Probability="1" />
+    <Value Text="Drunken" Probability="1" />
+    <Value Text="Gilded" Probability="1" />
+    <Value Text="Blue" Probability="1" />
+    <Value Text="Blushing" Probability="1" />
+    <Value Text="Magic" Probability="1" />
+    <Value Text="Regal" Probability="1" />
+    <Value Text="Silver" Probability="1" />
+    <Value Text="Crying" Probability="1" />
+    <Value Text="Bloody" Probability="1" />
+    <Value Text="Golden" Probability="1" />
+    <Value Text="Staggering" Probability="1" />
+    <Value Text="Laughing" Probability="1" />
+    <Value Text="Prancing" Probability="1" />
+    <Value Text="Running" Probability="1" />
+    <Value Text="Howling" Probability="1" />
+    <Value Text="Slaughtered" Probability="1" />
+    <Value Text="Leering" Probability="1" />
+    <Value Text="Leaping" Probability="1" />
+    <Value Text="Roaring" Probability="1" />
+    <Value Text="Frowning" Probability="1" />
+    <Value Text="Lonely" Probability="1" />
+    <Value Text="Wandering" Probability="1" />
+    <Value Text="Mysterious" Probability="1" />
+    <Value Text="Barking" Probability="1" />
+    <Value Text="Black" Probability="1" />
+    <Value Text="Gleaming" Probability="1" />
+    <Value Text="Glass" Probability="1" />
+  </Verbs>
+  <Nouns>
+    <Value Text="Maiden" Probability="1" />
+    <Value Text="Dragon" Probability="1" />
+    <Value Text="Sword" Probability="1" />
+    <Value Text="Blade" Probability="1" />
+    <Value Text="Stein" Probability="1" />
+    <Value Text="Wizard" Probability="1" />
+    <Value Text="Crow" Probability="1" />
+    <Value Text="Serpent" Probability="1" />
+    <Value Text="Mirror" Probability="1" />
+    <Value Text="Wyrm" Probability="1" />
+    <Value Text="Boar" Probability="1" />
+    <Value Text="Crown" Probability="1" />
+    <Value Text="Prince" Probability="1" />
+    <Value Text="Archer" Probability="1" />
+    <Value Text="Flute" Probability="1" />
+    <Value Text="Casket" Probability="1" />
+    <Value Text="Sailor" Probability="1" />
+    <Value Text="Thief" Probability="1" />
+    <Value Text="Moon" Probability="1" />
+    <Value Text="Broom" Probability="1" />
+    <Value Text="Eel" Probability="1" />
+    <Value Text="Dolphin" Probability="1" />
+    <Value Text="Dwarf" Probability="1" />
+    <Value Text="Pegasus" Probability="1" />
+    <Value Text="Pony" Probability="1" />
+    <Value Text="Rose" Probability="1" />
+    <Value Text="Stag" Probability="1" />
+    <Value Text="Wolf" Probability="1" />
+    <Value Text="Lamb" Probability="1" />
+    <Value Text="Demon" Probability="1" />
+    <Value Text="Goat" Probability="1" />
+    <Value Text="Spirit" Probability="1" />
+    <Value Text="Horde" Probability="1" />
+    <Value Text="Jester" Probability="1" />
+    <Value Text="Mountain" Probability="1" />
+    <Value Text="Eagle" Probability="1" />
+    <Value Text="Satyr" Probability="1" />
+    <Value Text="Dog" Probability="1" />
+    <Value Text="Spider" Probability="1" />
+    <Value Text="Star" Probability="1" />
+    <Value Text="Cannoneer" Probability="1" />
+  </Nouns>
+  <Types>
+    <Value Text="" Probability="4" />
+    <Value Text=" Tavern" Probability="1" />
+    <Value Text=" Bar" Probability="1" />
+    <Value Text=" Alehouse" Probability="1" />
+    <Value Text=" Pub" Probability="1" />
+  </Types>
+</Taverns>

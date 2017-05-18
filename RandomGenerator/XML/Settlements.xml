@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <Settlements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../Schema/SettlementsSchema.xsd">
+    <!--From DMG 5e pg 112 Random Settlements-->
+  <RaceRelations>
+    <Value Text="Harmony" Probability="10" />
+    <Value Text="Tension or rivalry" Probability="4" />
+    <Value Text="Racial majority are conquerors" Probability="2" />
+    <Value Text="Racial minorty are rulers" Probability="1" />
+    <Value Text="Racial minority are refugees" Probability="1" />
+    <Value Text="Racial majority oppresses minority" Probability="1" />
+    <Value Text="Racial minority oppresses majority" Probability="1" />
+  </RaceRelations>
+  <RulersStatus>
+    <Value Text="Respected, fair, and just" Probability="5" />
+    <Value Text="Feared tyrant" Probability="3" />
+    <Value Text="Weakling manipulated by others" Probability="1" />
+    <Value Text="Illegitimate ruler, simmering civil war" Probability="1" />
+    <Value Text="Ruled or controlled by a powerful monster" Probability="1" />
+    <Value Text="Mysterious, anonymous cabal" Probability="1" />
+    <Value Text="Contested leadership, open fighting" Probability="1" />
+    <Value Text="Cabal seized power openly" Probability="1" />
+    <Value Text="Doltish lout" Probability="1" />
+    <Value Text="On deathbed, claimants compete for power" Probability="1" />
+    <Value Text="Iron-willed but respected" Probability="2" />
+    <Value Text="Religious leader" Probability="2" />
+  </RulersStatus>
+  <NotableTraits>
+    <Value Text="Canals in place of streets" Probability="1" />
+    <Value Text="Massive statue or monument" Probability="1" />
+    <Value Text="Grand temple" Probability="1" />
+    <Value Text="Large fortress" Probability="1" />
+    <Value Text="Verdant parks and orchards" Probability="1" />
+    <Value Text="River divides town" Probability="1" />
+    <Value Text="Major trade center" Probability="1" />
+    <Value Text="Headquarters of a powerful family or guild" Probability="1" />
+    <Value Text="Population mostly wealthy" Probability="1" />
+    <Value Text="Destitute, rundown" Probability="1" />
+    <Value Text="Awful smell (tanneries, open sewers)" Probability="1" />
+    <Value Text="Center of trade for one specific good" Probability="1" />
+    <Value Text="Site of many battles" Probability="1" />
+    <Value Text="Site of a mythic or magical event" Probability="1" />
+    <Value Text="Important library or archive" Probability="1" />
+    <Value Text="Worship of all gods banned" Probability="1" />
+    <Value Text="Sinister reputation" Probability="1" />
+    <Value Text="Notable library or academy" Probability="1" />
+    <Value Text="Site of important tomb or graveyard" Probability="1" />
+    <Value Text="Built atop ancient ruins" Probability="1" />
+  </NotableTraits>
+  <KnownForIts>
+    <Value Text="Delicious cuisine" Probability="1" />
+    <Value Text="Piety" Probability="1" />
+    <Value Text="Rude people" Probability="1" />
+    <Value Text="Gambling" Probability="1" />
+    <Value Text="Greedy merchants" Probability="1" />
+    <Value Text="Godlessness" Probability="1" />
+    <Value Text="Artists and writers" Probability="1" />
+    <Value Text="Education" Probability="1" />
+    <Value Text="Great herojsavior" Probability="1" />
+    <Value Text="Wines" Probability="1" />
+    <Value Text="Flowers" Probability="1" />
+    <Value Text="High fashion" Probability="1" />
+    <Value Text="Hordes of beggars" Probability="1" />
+    <Value Text="Political intrigue" Probability="1" />
+    <Value Text="Tough warriors" Probability="1" />
+    <Value Text="Powerful guilds" Probability="1" />
+    <Value Text="Dark magic" Probability="1" />
+    <Value Text="Strong drink" Probability="1" />
+    <Value Text="Decadence" Probability="1" />
+    <Value Text="Patriotism" Probability="1" />
+  </KnownForIts>
+  <CurrentCalamity>
+    <Value Text="Suspected vampire infestation" Probability="1" />
+    <Value Text="New cult seeks converts" Probability="1" />
+    <Value Text="Important figure died (murder suspected)" Probability="1" />
+    <Value Text="War between rival thieves' guilds" Probability="1" />
+    <Value Text="Plague or famine (sparks riots)" Probability="1" />
+    <Value Text="Corrupt officials" Probability="1" />
+    <Value Text="Marauding monsters" Probability="1" />
+    <Value Text="Powerful wizard has moved into town" Probability="1" />
+    <Value Text="Economic depression (trade disrupted)" Probability="1" />
+    <Value Text="Flooding" Probability="1" />
+    <Value Text="Undead stirring in cemeteries" Probability="1" />
+    <Value Text="Prophecy of doom" Probability="1" />
+    <Value Text="Brink of war" Probability="1" />
+    <Value Text="Internal strife (leads to anarchy)" Probability="1" />
+    <Value Text="Besieged by enemies" Probability="1" />
+    <Value Text="Scandal threatens powerful families" Probability="1" />
+    <Value Text="Dungeon discovered (adventurers flock to town)" Probability="1" />
+    <Value Text="Religious sects struggle for power" Probability="1" />
+  </CurrentCalamity>
+</Settlements>

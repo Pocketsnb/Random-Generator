@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dungeons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../Schema/DungeonsSchema.xsd">
+    <!--From DMG 5e pg 99 Building a Dungeon-->
+  <Locations>
+    <Value Text="A building in a city" Probability="16" />
+    <Value Text="Catacombs or sewers beneath a city" Probability="16" />
+    <Value Text="Beneath a farmhouse" Probability="16" />
+    <Value Text="Beneath a graveyard" Probability="16" />
+    <Value Text="Beneath a ruined castle" Probability="24" />
+    <Value Text="Beneath a ruined city" Probability="16" />
+    <Value Text="Beneath a temple" Probability="16" />
+    <Value Text="In a chasm" Probability="16" />
+    <Value Text="In a cliff face" Probability="16" />
+    <Value Text="In a desert" Probability="16" />
+    <Value Text="In a forest" Probability="16" />
+    <Value Text="In a glacier" Probability="16" />
+    <Value Text="In a gorge" Probability="16" />
+    <Value Text="In a jungle" Probability="16" />
+    <Value Text="In a mountain pass" Probability="16" />
+    <Value Text="In a swamp" Probability="16" />
+    <Value Text="Beneath or on top of a mesa" Probability="16" />
+    <Value Text="In sea caves" Probability="16" />
+    <Value Text="In several connected mesas" Probability="16" />
+    <Value Text="On a mountain peak" Probability="16" />
+    <Value Text="On a promontory" Probability="16" />
+    <Value Text="On an island" Probability="16" />
+    <Value Text="Underwater" Probability="20" />
+    <Value Text="Among the branches of a tree" Probability="1" />
+    <Value Text="Around a geyser" Probability="1" />
+    <Value Text="Behind a waterfall" Probability="1" />
+    <Value Text="Buried in an avalanche" Probability="1" />
+    <Value Text="Buried in a sandstorm" Probability="1" />
+    <Value Text="Buried in volcanic ash" Probability="1" />
+    <Value Text="Castle or structure sunken in a swamp" Probability="1" />
+    <Value Text="Castle or structure at the bottom of a sinkhole" Probability="1" />
+    <Value Text="Floating on the sea" Probability="1" />
+    <Value Text="In a meteorite" Probability="1" />
+    <Value Text="On a demiplane or in a pocket dimension" Probability="1" />
+    <Value Text="In an area devastated by a magical catastrophe" Probability="1" />
+    <Value Text="On a cloud" Probability="1" />
+    <Value Text="In the Feywild" Probability="1" />
+    <Value Text="In the Shadowfell" Probability="1" />
+    <Value Text="On an island in an underground sea" Probability="1" />
+    <Value Text="In a volcano" Probability="1" />
+    <Value Text="On the back of a Gargantuan living creature" Probability="1" />
+    <Value Text="Sealed inside a magical dome of force" Probability="1" />
+    <Value Text="Inside a Mordenkainen's magnificent mansion" Probability="1" />
+  </Locations>
+  <Creators>
+    <Value Text="a beholder" Probability="3" />
+    <Value Text="a demon-worshiping cult" Probability="1" />
+    <Value Text="a devil-worshiping cult" Probability="1" />
+    <Value Text="an elemental Air cult" Probability="2" />
+    <Value Text="an elemental Earth cult" Probability="2" />
+    <Value Text="an elemental Fire cult" Probability="2" />
+    <Value Text="an elemental Water cult" Probability="2" />
+    <Value Text="worshipers of an evil deity" Probability="5" />
+    <Value Text="worshipers of a good deity" Probability="2" />
+    <Value Text="worshipers of a neutral deity" Probability="3" />
+    <Value Text="dwarves" Probability="16" />
+    <Value Text="elves/drow" Probability="3" />
+    <Value Text="giants" Probability="3" />
+    <Value Text="hobgoblins" Probability="3" />
+    <Value Text="humans" Probability="16" />
+    <Value Text="kuo-toa" Probability="3" />
+    <Value Text="a lich" Probability="3" />
+    <Value Text="mind flayers" Probability="3" />
+    <Value Text="yuan-ti" Probability="3" />
+    <Value Text="natural caverns" Probability="3" />
+  </Creators>
+  <Alignments>
+    <Value Text="lawful good" Probability="2" />
+    <Value Text="neutral good" Probability="2" />
+    <Value Text="chaotic good" Probability="2" />
+    <Value Text="lawful neutral" Probability="3" />
+    <Value Text="neutral" Probability="2" />
+    <Value Text="chaotic neutral" Probability="1" />
+    <Value Text="lawful evil" Probability="3" />
+    <Value Text="neutral evil" Probability="3" />
+    <Value Text="chaotic evil" Probability="2" />
+  </Alignments>
+  <Classes>
+    <Value Text="barbarian" Probability="1" />
+    <Value Text="bardic" Probability="1" />
+    <Value Text="clerical" Probability="2" />
+    <Value Text="druidic" Probability="1" />
+    <Value Text="fighter" Probability="2" />
+    <Value Text="monastic" Probability="1" />
+    <Value Text="paladin" Probability="1" />
+    <Value Text="ranger" Probability="1" />
+    <Value Text="rogue" Probability="4" />
+    <Value Text="sorcerous" Probability="1" />
+    <Value Text="warlock" Probability="1" />
+    <Value Text="wizardly" Probability="4" />
+  </Classes>
+  <Purposes>
+    <Value Text="death trap" Probability="1">
+      <Description>This dungeon is built to eliminate any creature that dares to enter it. A death trap might guard the treasure of an insane wizard, or it might be designed to lure adventurers to their demise for some nefarious Value, such as to feed souls to a lich's phylactery.</Description>
+    </Value>
+    <Value Text="lair" Probability="4">
+      <Description>A lair is a place where monsters live. Typical lairs include ruins and caves.</Description>
+    </Value>
+    <Value Text="maze" Probability="1">
+      <Description>A maze is intended to deceive or confuse those who enter it. Some mazes are elaborate obstacles that protect treasure, while others are gauntlets for prisoners banished there to be hunted and devoured by the monsters within.</Description>
+    </Value>
+    <Value Text="mine" Probability="3">
+      <Description>An abandoned mine can quickly become infested with monsters, while miners who delve too deep can break through into the Underdark.</Description>
+    </Value>
+    <Value Text="planar gate" Probability="1">
+      <Description>Dungeons built around planar portals are often transformed by the planar energy seeping out through those portals.</Description>
+    </Value>
+    <Value Text="stronghold" Probability="4">
+      <Description>A stronghold dungeon provides a secure base of operations for villains and monsters. It is usally ruled by a powerful individual, such as a wizard, vampire, or dragon, and it is larger and more complex than a simple lair.</Description>
+    </Value>
+    <Value Text="temple or shrine" Probability="3">
+      <Description>This dungeon is consecrated to a deity or other planar entity. The entity's worshipers control the dungeon and conduct their rites there.</Description>
+    </Value>
+    <Value Text="tomb" Probability="2">
+      <Description>Tombs are magnets for treasure hunters, as well as monsters that hunger for the bones of the dead.</Description>
+    </Value>
+    <Value Text="treasure vault" Probability="1">
+      <Description>Built to protect powerful magic items and great material wealth, treasure vault dungeons are heavily guarded by monsters and traps.</Description>
+    </Value>
+  </Purposes>
+  <Histories>
+    <Value Text="Abandoned by creators" Probability="3" />
+    <Value Text="Abandoned due to plague" Probability="1" />
+    <Value Text="Conquered by invaders" Probability="4" />
+    <Value Text="Creators destroyed by attacking raiders" Probability="2" />
+    <Value Text="Creators destroyed by discovery made within the site" Probability="1" />
+    <Value Text="Creators destroyed by internal conflict" Probability="1" />
+    <Value Text="Creators destroyed by magical catastrophe" Probability="1" />
+    <Value Text="Creators destroyed by natural disaster" Probability="2" />
+    <Value Text="Location cursed by the gods and shunned" Probability="1" />
+    <Value Text="Original creator still in control" Probability="2" />
+    <Value Text="Overrun by planar creatures" Probability="1" />
+    <Value Text="Site of a great miracle" Probability="1" />
+  </Histories>
+</Dungeons>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MagicItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../Schema/MagicItemsSchema.xsd">
+  <!--From DMG 5e pg 144 Random Magic Items-->
+  <TableA>
+    <Value Text="Potion of healing" Probability="50" />
+    <Value Text="Spell scroll (cantrip)" Probability="10" />
+    <Value Text="Potion of climbing" Probability="10" />
+    <Value Text="Spell scroll (1st level)" Probability="20" />
+    <Value Text="Spell scroll (2nd level)" Probability="4" />
+    <Value Text="Potion of greater healing" Probability="4" />
+    <Value Text="Bag of holding" Probability="1" />
+    <Value Text="Driftglobe" Probability="1" />
+  </TableA>
+  <TableB>
+    <Value Text="Potion of greater healing" Probability="15" />
+    <Value Text="Potion of fire breath" Probability="7" />
+    <Value Text="Potion of resistance" Probability="7" />
+    <Value Text="Ammunition, +1" Probability="5" />
+    <Value Text="Potion of animal friendship" Probability="5" />
+    <Value Text="Potion of hill giant strength" Probability="5" />
+    <Value Text="Potion of growth" Probability="5" />
+    <Value Text="Potion of water breathing" Probability="5" />
+    <Value Text="Spell scroll (2nd level)" Probability="5" />
+    <Value Text="Spell scroll (3rd level)" Probability="5" />
+    <Value Text="Bag of holding" Probability="3" />
+    <Value Text="Keoghtom's ointment" Probability="3" />
+    <Value Text="Oil of slipperiness" Probability="3" />
+    <Value Text="Dust of disappearance" Probability="2" />
+    <Value Text="Dust of dryness" Probability="2" />
+    <Value Text="Dust of sneezing and choking" Probability="2" />
+    <Value Text="Elemental gem" Probability="2" />
+    <Value Text="Philter of love" Probability="2" />
+    <Value Text="Alchemy jug" Probability="1" />
+    <Value Text="Cap of water breathing" Probability="1" />
+    <Value Text="Cloak of the manta ray" Probability="1" />
+    <Value Text="Driftglobe" Probability="1" />
+    <Value Text="Goggles of night" Probability="1" />
+    <Value Text="Helm of comprehending languages" Probability="1" />
+    <Value Text="Immovable rod" Probability="1" />
+    <Value Text="Lantern of revealing" Probability="1" />
+    <Value Text="Mariner's armor" Probability="1" />
+    <Value Text="Mithral armor" Probability="1" />
+    <Value Text="Potion of poison" Probability="1" />
+    <Value Text="Ring of swimming" Probability="1" />
+    <Value Text="Robe of useful items" Probability="1" />
+    <Value Text="Rope of climbing" Probability="1" />
+    <Value Text="Saddle of the cavalier" Probability="1" />
+    <Value Text="Wand of magic detection" Probability="1" />
+    <Value Text="Wand of secrets" Probability="1" />
+  </TableB>
+  <TableC>
+    <Value Text="Potion of superior healing" Probability="15" />
+    <Value Text="Spell scroll (4th level)" Probability="7" />
+    <Value Text="Ammunition, +2" Probability="5" />
+    <Value Text="Potion of clairvoyance" Probability="5" />
+    <Value Text="Potion of diminution" Probability="5" />
+    <Value Text="Potion of gaseous form" Probability="5" />
+    <Value Text="Potion of frost giant strength" Probability="5" />
+    <Value Text="Potion of stone giant strength" Probability="5" />
+    <Value Text="Potion of heroism" Probability="5" />
+    <Value Text="Potion of invulnerability" Probability="5" />
+    <Value Text="Potion of mind reading" Probability="5" />
+    <Value Text="Spell scroll (5th le vel)" Probability="5" />
+    <Value Text="Elixir of health" Probability="3" />
+    <Value Text="Oil of etherealness" Probability="3" />
+    <Value Text="Potion of fire giant strength" Probability="3" />
+    <Value Text="Quaal's feather token" Probability="3" />
+    <Value Text="Scroll of protection" Probability="3" />
+    <Value Text="Bag of beans" Probability="2" />
+    <Value Text="Bead of force" Probability="2" />
+    <Value Text="Chime of opening" Probability="1" />
+    <Value Text="Decanter of endless water" Probability="1" />
+    <Value Text="Eyes of minute seeing" Probability="1" />
+    <Value Text="Folding boat" Probability="1" />
+    <Value Text="Heward's handy haversack" Probability="1" />
+    <Value Text="Horseshoes of speed" Probability="1" />
+    <Value Text="Necklace of fireballs" Probability="1" />
+    <Value Text="Periapt of health" Probability="1" />
+    <Value Text="Sending stones" Probability="1" />
+  </TableC>
+  <TableD>
+    <Value Text="Potion of supreme healing" Probability="20" />
+    <Value Text="Potion of invisibility" Probability="10" />
+    <Value Text="Potion of speed" Probability="10" />
+    <Value Text="Spell scroll (6th level)" Probability="10" />
+    <Value Text="Spell scroll (7th level)" Probability="7" />
+    <Value Text="Ammunition, +3" Probability="5" />
+    <Value Text="Oil of sharpness" Probability="5" />
+    <Value Text="Potion of flying" Probability="5" />
+    <Value Text="Potion of cloud giant strength" Probability="5" />
+    <Value Text="Potion of longevity" Probability="5" />
+    <Value Text="Potion of vitality" Probability="5" />
+    <Value Text="Spell scroll (8th level)" Probability="5" />
+    <Value Text="Horseshoes of a zephyr" Probability="3" />
+    <Value Text="Nolzur's marvelous pigments" Probability="3" />
+    <Value Text="Bag of devouring" Probability="1" />
+    <Value Text="Portable hole" Probability="1" />
+  </TableD>
+  <TableE>
+    <Value Text="Spell scroll (8th level)" Probability="30" />
+    <Value Text="Potion of storm giant strength" Probability="25" />
+    <Value Text="Potion of supreme healing" Probability="15" />
+    <Value Text="Spell scroll (9th level)" Probability="15" />
+    <Value Text="Universal solvent" Probability="8" />
+    <Value Text="Arrow of slaying" Probability="5" />
+    <Value Text="Sovereign glue" Probability="2" />
+  </TableE>
+  <TableF>
+    <Value Text="Weapon, +1" Probability="15" />
+    <Value Text="Shield,+ 1" Probability="3" />
+    <Value Text="Sentinel shield" Probability="3" />
+    <Value Text="Amulet of proof against detection and location" Probability="2" />
+    <Value Text="Boots of elvenkind" Probability="2" />
+    <Value Text="Boots of striding and springing" Probability="2" />
+    <Value Text="Bracers of archery" Probability="2" />
+    <Value Text="Brooch of shielding" Probability="2" />
+    <Value Text="Broom of flying" Probability="2" />
+    <Value Text="Cloak of elvenkind" Probability="2" />
+    <Value Text="Cloak of protection" Probability="2" />
+    <Value Text="Gauntlets of ogre power" Probability="2" />
+    <Value Text="Hat of disguise" Probability="2" />
+    <Value Text="Javelin of lightning" Probability="2" />
+    <Value Text="Pearl of power" Probability="2" />
+    <Value Text="Rod of the pact keeper, + 1" Probability="2" />
+    <Value Text="Slippers of spider climbing" Probability="2" />
+    <Value Text="Staff of the adder" Probability="2" />
+    <Value Text="Staff of the python" Probability="2" />
+    <Value Text="Sword of vengeance" Probability="2" />
+    <Value Text="Trident of fish command" Probability="2" />
+    <Value Text="Wand of magic missiles" Probability="2" />
+    <Value Text="Wand of the war mage, + 1" Probability="2" />
+    <Value Text="Wand of web" Probability="2" />
+    <Value Text="Weapon of warning" Probability="2" />
+    <Value Text="Adamantine armor (chain mail)" Probability="1" />
+    <Value Text="Adamantine armor (chain shirt)" Probability="1" />
+    <Value Text="Adamantine armor (scale mail)" Probability="1" />
+    <Value Text="Bag of tricks (gray)" Probability="1" />
+    <Value Text="Bag of tricks (rust)" Probability="1" />
+    <Value Text="Bag of tricks (tan)" Probability="1" />
+    <Value Text="Boots of the winterlands" Probability="1" />
+    <Value Text="Circlet of blasting" Probability="1" />
+    <Value Text="Deck of illusions" Probability="1" />
+    <Value Text="Eversmoking bottle" Probability="1" />
+    <Value Text="Eyes of charming" Probability="1" />
+    <Value Text="Eyes of the eagle" Probability="1" />
+    <Value Text="Figurine of wondrous power (silver raven)" Probability="1" />
+    <Value Text="Gem of brightness" Probability="1" />
+    <Value Text="Gloves of missile snaring" Probability="1" />
+    <Value Text="Gloves of swimming and climbing" Probability="1" />
+    <Value Text="Gloves of thievery" Probability="1" />
+    <Value Text="Headband of intellect" Probability="1" />
+    <Value Text="Helm of telepathy" Probability="1" />
+    <Value Text="Instrument of the bards (Doss lute)" Probability="1" />
+    <Value Text="Instrument of the bards (Fochlucan bandore)" Probability="1" />
+    <Value Text="Instrument of the bards (Mac-Fuimidh cittern)" Probability="1" />
+    <Value Text="Medallion of thoughts" Probability="1" />
+    <Value Text="Necklace of adaptation" Probability="1" />
+    <Value Text="Periapt of wound closure" Probability="1" />
+    <Value Text="Pipes of haunting" Probability="1" />
+    <Value Text="Pipes of the sewers" Probability="1" />
+    <Value Text="Ring of jumping" Probability="1" />
+    <Value Text="Ring of mind shielding" Probability="1" />
+    <Value Text="Ring of warmth" Probability="1" />
+    <Value Text="Ring of water walking" Probability="1" />
+    <Value Text="Quiver of Ehlonna" Probability="1" />
+    <Value Text="Stone of good luck" Probability="1" />
+    <Value Text="Wind fan" Probability="1" />
+    <Value Text="Winged boots" Probability="1" />
+  </TableF>
+  <TableG>
+    <Value Text="Weapon, +2" Probability="11" />
+    <Value Text="Figurine of wonderus power (roll d8)" Probability="3" />
+    <Value Text="Adamantine armor (breastplate)" Probability="1" />
+    <Value Text="Adamantine armor (splint)" Probability="1" />
+    <Value Text="Amulet of health" Probability="1" />
+    <Value Text="Armor of vulnerability" Probability="1" />
+    <Value Text="Arrow-catching shield" Probability="1" />
+    <Value Text="Belt of dwarvenkind" Probability="1" />
+    <Value Text="Belt of hill giant strength" Probability="1" />
+    <Value Text="Berserker axe" Probability="1" />
+    <Value Text="Boots of levitation" Probability="1" />
+    <Value Text="Boots of speed" Probability="1" />
+    <Value Text="Bowl of commanding water elementals" Probability="1" />
+    <Value Text="Bracers of defense" Probability="1" />
+    <Value Text="Brazier of commanding fire elementals" Probability="1" />
+    <Value Text="Cape of the mountebank" Probability="1" />
+    <Value Text="Censer of controlling air elementals" Probability="1" />
+    <Value Text="Armor, +1 chain mail" Probability="1" />
+    <Value Text="Armor of resistance (chain mail)" Probability="1" />
+    <Value Text="Armor,+ 1 chain shirt" Probability="1" />
+    <Value Text="Armor of resistance (chain shirt)" Probability="1" />
+    <Value Text="Cloak of displacement" Probability="1" />
+    <Value Text="Cloak of the bat" Probability="1" />
+    <Value Text="Cube afforce" Probability="1" />
+    <Value Text="Daern's instant fortress" Probability="1" />
+    <Value Text="Dagger of venom" Probability="1" />
+    <Value Text="Dimensional shackles" Probability="1" />
+    <Value Text="Dragon slayer" Probability="1" />
+    <Value Text="Elven chain" Probability="1" />
+    <Value Text="Flame tongue" Probability="1" />
+    <Value Text="Gem of seeing" Probability="1" />
+    <Value Text="Giant slayer" Probability="1" />
+    <Value Text="Clamoured studded leather" Probability="1" />
+    <Value Text="Helm of teleportation" Probability="1" />
+    <Value Text="Horn of blasting" Probability="1" />
+    <Value Text="Horn of Valhalla (silver or brass)" Probability="1" />
+    <Value Text="Instrument of the bards (Canaith mandolin)" Probability="1" />
+    <Value Text="Instrument ofthe bards (Cli lyre)" Probability="1" />
+    <Value Text="loun stone (awareness)" Probability="1" />
+    <Value Text="loun stone (protection)" Probability="1" />
+    <Value Text="loun stone (reserve)" Probability="1" />
+    <Value Text="loun stone (sustenance)" Probability="1" />
+    <Value Text="Iron bands of Bilarro" Probability="1" />
+    <Value Text="Armor, + 1 leather" Probability="1" />
+    <Value Text="Armor of resistance (leather)" Probability="1" />
+    <Value Text="Mace of disruption" Probability="1" />
+    <Value Text="Mace of smiting" Probability="1" />
+    <Value Text="Mace of terror" Probability="1" />
+    <Value Text="Mantle of spell resistance" Probability="1" />
+    <Value Text="Necklace of prayer beads" Probability="1" />
+    <Value Text="Periapt of proof against poison" Probability="1" />
+    <Value Text="Ring of animal influence" Probability="1" />
+    <Value Text="Ring of evasion" Probability="1" />
+    <Value Text="Ring of feather falling" Probability="1" />
+    <Value Text="Ring of free action" Probability="1" />
+    <Value Text="Ring of protection" Probability="1" />
+    <Value Text="Ring of resistance" Probability="1" />
+    <Value Text="Ring of spell storing" Probability="1" />
+    <Value Text="Ring of the ram" Probability="1" />
+    <Value Text="Ring of X-ray vision" Probability="1" />
+    <Value Text="Robe of eyes" Probability="1" />
+    <Value Text="Rod of rulership" Probability="1" />
+    <Value Text="Rod of the pact keeper, +2" Probability="1" />
+    <Value Text="Rope of entanglement" Probability="1" />
+    <Value Text="Armor, +1 scale mail" Probability="1" />
+    <Value Text="Armor of resistance (scale mail)" Probability="1" />
+    <Value Text="Shield, +2" Probability="1" />
+    <Value Text="Shield of missile attraction" Probability="1" />
+    <Value Text="Staff of charming" Probability="1" />
+    <Value Text="Staff of healing" Probability="1" />
+    <Value Text="Staff of swarming insects" Probability="1" />
+    <Value Text="Staff of the woodlands" Probability="1" />
+    <Value Text="Staff of withering" Probability="1" />
+    <Value Text="Stone of controlling earth elementals" Probability="1" />
+    <Value Text="Sun blade" Probability="1" />
+    <Value Text="Sword of life stealing" Probability="1" />
+    <Value Text="Sword of wounding" Probability="1" />
+    <Value Text="Tentacle rod" Probability="1" />
+    <Value Text="Vicious weapon" Probability="1" />
+    <Value Text="Wand of binding" Probability="1" />
+    <Value Text="Wand of enemy detection" Probability="1" />
+    <Value Text="Wand of fear" Probability="1" />
+    <Value Text="Wand of fireballs" Probability="1" />
+    <Value Text="Wand of lightning bolts" Probability="1" />
+    <Value Text="Wand of paralysis" Probability="1" />
+    <Value Text="Wand of the war mage, +2" Probability="1" />
+    <Value Text="Wand of wonder" Probability="1" />
+    <Value Text="Wings of flying" Probability="1" />
+  </TableG>
+  <TableH>
+    <Value Text="Weapon, +3" Probability="10" />
+    <Value Text="Amulet of the planes" Probability="2" />
+    <Value Text="Carpet of flying" Probability="2" />
+    <Value Text="Crystal ball (very rare version)" Probability="2" />
+    <Value Text="Ring of regeneration" Probability="2" />
+    <Value Text="Ring of shooting stars" Probability="2" />
+    <Value Text="Ring of telekinesis" Probability="2" />
+    <Value Text="Robe of scintillating colors" Probability="2" />
+    <Value Text="Robe of stars" Probability="2" />
+    <Value Text="Rod of absorption" Probability="2" />
+    <Value Text="Rod of alertness" Probability="2" />
+    <Value Text="Rod of security" Probability="2" />
+    <Value Text="Rod of the pact keeper, +3" Probability="2" />
+    <Value Text="Scimitar of speed" Probability="2" />
+    <Value Text="Shield, +3" Probability="2" />
+    <Value Text="Staff of fire" Probability="2" />
+    <Value Text="Staff of frost" Probability="2" />
+    <Value Text="Staff of power" Probability="2" />
+    <Value Text="Staff of striking" Probability="2" />
+    <Value Text="Staff of thunder and lightning" Probability="2" />
+    <Value Text="Sword of sharpness" Probability="2" />
+    <Value Text="Wand of polymorph" Probability="2" />
+    <Value Text="Wand of the war mage, +3" Probability="2" />
+    <Value Text="Adamantine armor (half plate)" Probability="1" />
+    <Value Text="Adamantine armor (plate)" Probability="1" />
+    <Value Text="Animated shield" Probability="1" />
+    <Value Text="Belt of fire giant strength" Probability="1" />
+    <Value Text="Belt of frost (or stone) giant strength" Probability="1" />
+    <Value Text="Armor, + 1 breastplate" Probability="1" />
+    <Value Text="Armor of resistance (breastplate)" Probability="1" />
+    <Value Text="Candle of invocation" Probability="1" />
+    <Value Text="Armor, +2 chain mail" Probability="1" />
+    <Value Text="Armor, +2 chain shirt" Probability="1" />
+    <Value Text="Cloak of arachnida" Probability="1" />
+    <Value Text="Dancing sword" Probability="1" />
+    <Value Text="Demon armor" Probability="1" />
+    <Value Text="Dragon scale mail" Probability="1" />
+    <Value Text="Dwarven plate" Probability="1" />
+    <Value Text="Dwarven thrower" Probability="1" />
+    <Value Text="Efreeti bottle" Probability="1" />
+    <Value Text="Figurine of wondrous power (obsidian steed)" Probability="1" />
+    <Value Text="Frost brand" Probability="1" />
+    <Value Text="Helm of brilliance" Probability="1" />
+    <Value Text="Horn of Valhalla (bronze)" Probability="1" />
+    <Value Text="Instrument of the bards (Anstruth harp)" Probability="1" />
+    <Value Text="loun stone (absorption)" Probability="1" />
+    <Value Text="loun stone (agility)" Probability="1" />
+    <Value Text="loun stone (fortitude)" Probability="1" />
+    <Value Text="loun stone (insight)" Probability="1" />
+    <Value Text="loun stone (intellect)" Probability="1" />
+    <Value Text="loun stone (leadership)" Probability="1" />
+    <Value Text="loun stone (strength)" Probability="1" />
+    <Value Text="Armor, +2 leather" Probability="1" />
+    <Value Text="Manual of bodily health" Probability="1" />
+    <Value Text="Manual of gainful exercise" Probability="1" />
+    <Value Text="Manual of golems" Probability="1" />
+    <Value Text="Manual of quickness of action" Probability="1" />
+    <Value Text="Mirror of life trapping" Probability="1" />
+    <Value Text="Nine lives stealer" Probability="1" />
+    <Value Text="Oath bow" Probability="1" />
+    <Value Text="Armor, +2 scale mail" Probability="1" />
+    <Value Text="Spellguard shield" Probability="1" />
+    <Value Text="Armor, + 1 splint" Probability="1" />
+    <Value Text="Armor of resistance (splint)" Probability="1" />
+    <Value Text="Armor, + 1 studded leather" Probability="1" />
+    <Value Text="Armor of resistance (studded leather)" Probability="1" />
+    <Value Text="Tome of clear thought" Probability="1" />
+    <Value Text="Tome of leadership and influence" Probability="1" />
+    <Value Text="Tome of understanding" Probability="1" />
+  </TableH>
+  <TableI>
+    <Value Text="Defender" Probability="5" />
+    <Value Text="Hammer of thunderbolts" Probability="5" />
+    <Value Text="Luck blade" Probability="5" />
+    <Value Text="Sword of answering" Probability="5" />
+    <Value Text="Holy avenger" Probability="3" />
+    <Value Text="Ring of djinni summoning" Probability="3" />
+    <Value Text="Ring of invisibility" Probability="3" />
+    <Value Text="Ring of spell turning" Probability="3" />
+    <Value Text="Rod of lordly might" Probability="3" />
+    <Value Text="Staff of the magi" Probability="3" />
+    <Value Text="Vorpal sword" Probability="3" />
+    <Value Text="Belt of cloud giant strength" Probability="2" />
+    <Value Text="Armor, +2 breastplate" Probability="2" />
+    <Value Text="Armor, +3 chain mail" Probability="2" />
+    <Value Text="Armor, +3 chain shirt" Probability="2" />
+    <Value Text="Cloak of invisibility" Probability="2" />
+    <Value Text="Crystal ball (legendary version)" Probability="2" />
+    <Value Text="Armor, + 1 half plate" Probability="2" />
+    <Value Text="Iron flask" Probability="2" />
+    <Value Text="Armor, +3 leather" Probability="2" />
+    <Value Text="Armor, +1 plate" Probability="2" />
+    <Value Text="Robe of the archmagi" Probability="2" />
+    <Value Text="Rod of resurrection" Probability="2" />
+    <Value Text="Armor, +1 scale mail" Probability="2" />
+    <Value Text="Scarab of protection" Probability="2" />
+    <Value Text="Armor, +2 splint" Probability="2" />
+    <Value Text="Armor, +2 studded leather" Probability="2" />
+    <Value Text="Well of many worlds" Probability="2" />
+    <Value Text="Magic armor (roll dl2)" Probability="1" />
+    <Value Text="Apparatus of Kwalish" Probability="1" />
+    <Value Text="Armor of invulnerability" Probability="1" />
+    <Value Text="Belt of storm giant strength" Probability="1" />
+    <Value Text="Cubic gate" Probability="1" />
+    <Value Text="Deck of many things" Probability="1" />
+    <Value Text="Efreeti chain" Probability="1" />
+    <Value Text="Armor of resistance (half plate)" Probability="1" />
+    <Value Text="Horn of Valhalla (iron)" Probability="1" />
+    <Value Text="Instrument of the bards (Ollamh harp)" Probability="1" />
+    <Value Text="loun stone (greater absorption)" Probability="1" />
+    <Value Text="loun stone (mastery)" Probability="1" />
+    <Value Text="loun stone (regeneration)" Probability="1" />
+    <Value Text="Plate armor of etherealness" Probability="1" />
+    <Value Text="Plate armor of resistance" Probability="1" />
+    <Value Text="Ring of air elemental command" Probability="1" />
+    <Value Text="Ring of earth elemental command" Probability="1" />
+    <Value Text="Ring of fire elemental command" Probability="1" />
+    <Value Text="Ring of three wishes" Probability="1" />
+    <Value Text="Ring of water elemental command" Probability="1" />
+    <Value Text="Sphere of annihilation" Probability="1" />
+    <Value Text="Talisman of pure good" Probability="1" />
+    <Value Text="Talisman of the sphere" Probability="1" />
+    <Value Text="Talisman of ultimate evil" Probability="1" />
+    <Value Text="Tome of the stilled tongue" Probability="1" />
+  </TableI>
+  <Figurine>
+    <Value Text="Bronze griffon" Probability="1" />
+    <Value Text="Ebony fly" Probability="1" />
+    <Value Text="Golden lions" Probability="1" />
+    <Value Text="Ivory goats" Probability="1" />
+    <Value Text="Marble elephant" Probability="1" />
+    <Value Text="Onyx dog" Probability="2" />
+    <Value Text="Serpentine owl" Probability="1" />
+  </Figurine>
+  <MagicArmor>
+    <Value Text="Armor, +2 half plate" Probability="2" />
+    <Value Text="Armor, +2 plate" Probability="2" />
+    <Value Text="Armor, +3 studded leather" Probability="2" />
+    <Value Text="Armor, +3 breastplate" Probability="2" />
+    <Value Text="Armor, +3 splint" Probability="2" />
+    <Value Text="Armor, +3 half plate" Probability="1" />
+    <Value Text="Armor, +3 plate" Probability="1" />
+  </MagicArmor>
+</MagicItems>
