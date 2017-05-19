@@ -23,13 +23,14 @@ namespace RandomGenerator
         {
             if (levelRange.Equals("17+"))
                 levelRange = levelRange.Remove(2);
+            
             StringBuilder output = new StringBuilder();
             string elementPosition = treasureType + "Treasure" + levelRange;
             treasureSelector = new ProbabilitySelector(XDocumentHelper.getText(readerTreasure, elementPosition), 
                                                        XDocumentHelper.getProbability(readerTreasure, elementPosition));
 
             string currentTable = treasureSelector.rouletteSelect();
-
+            
             //get coins from treasure
             List<Dice> coins = XDocumentHelper.getCoins(readerTreasure, elementPosition, currentTable);
             Dictionary<string, int> finalCoins = RandomHelper.RollRandomItem(coins);
@@ -73,6 +74,12 @@ namespace RandomGenerator
                 for (int i = 0; i < item.Value; i++)
                 {
                     string currentItem = currentItemSelector.rouletteSelect();
+                    if(currentItem.StartsWith("Roll on"))
+                    {
+                        string lastValue = currentItem.Split(' ').Last();
+                        ProbabilitySelector specificItem = new ProbabilitySelector(XDocumentHelper.getText(doc, lastValue), XDocumentHelper.getProbability(doc, lastValue));
+                        currentItem = specificItem.rouletteSelect();
+                    }
                     output.Append(currentItem);
                     if (isGems)
                         output.Append(": " + gemDesc[currentItemText.IndexOf(currentItem)]);

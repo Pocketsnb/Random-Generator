@@ -61,7 +61,7 @@
     <Value Text="Potion of heroism" Probability="5" />
     <Value Text="Potion of invulnerability" Probability="5" />
     <Value Text="Potion of mind reading" Probability="5" />
-    <Value Text="Spell scroll (5th le vel)" Probability="5" />
+    <Value Text="Spell scroll (5th level)" Probability="5" />
     <Value Text="Elixir of health" Probability="3" />
     <Value Text="Oil of etherealness" Probability="3" />
     <Value Text="Potion of fire giant strength" Probability="3" />
@@ -170,7 +170,7 @@
   </TableF>
   <TableG>
     <Value Text="Weapon, +2" Probability="11" />
-    <Value Text="Figurine of wonderus power (roll d8)" Probability="3" />
+    <Value Text="Roll on Figurine" Probability="3" />
     <Value Text="Adamantine armor (breastplate)" Probability="1" />
     <Value Text="Adamantine armor (splint)" Probability="1" />
     <Value Text="Amulet of health" Probability="1" />
@@ -358,7 +358,7 @@
     <Value Text="Armor, +2 splint" Probability="2" />
     <Value Text="Armor, +2 studded leather" Probability="2" />
     <Value Text="Well of many worlds" Probability="2" />
-    <Value Text="Magic armor (roll dl2)" Probability="1" />
+    <Value Text="Roll on MagicArmor" Probability="1" />
     <Value Text="Apparatus of Kwalish" Probability="1" />
     <Value Text="Armor of invulnerability" Probability="1" />
     <Value Text="Belt of storm giant strength" Probability="1" />
@@ -385,13 +385,13 @@
     <Value Text="Tome of the stilled tongue" Probability="1" />
   </TableI>
   <Figurine>
-    <Value Text="Bronze griffon" Probability="1" />
-    <Value Text="Ebony fly" Probability="1" />
-    <Value Text="Golden lions" Probability="1" />
-    <Value Text="Ivory goats" Probability="1" />
-    <Value Text="Marble elephant" Probability="1" />
-    <Value Text="Onyx dog" Probability="2" />
-    <Value Text="Serpentine owl" Probability="1" />
+    <Value Text="Figurine, Bronze griffon" Probability="1" />
+    <Value Text="Figurine, Ebony fly" Probability="1" />
+    <Value Text="Figurine, Golden lions" Probability="1" />
+    <Value Text="Figurine, Ivory goats" Probability="1" />
+    <Value Text="Figurine, Marble elephant" Probability="1" />
+    <Value Text="Figurine, Onyx dog" Probability="2" />
+    <Value Text="Figurine, Serpentine owl" Probability="1" />
   </Figurine>
   <MagicArmor>
     <Value Text="Armor, +2 half plate" Probability="2" />
