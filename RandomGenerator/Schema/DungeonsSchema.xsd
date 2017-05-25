@@ -27,6 +27,16 @@
     </xs:sequence>
   </xs:complexType>
 
+  <xs:complexType name="StartingType">
+    <xs:sequence>
+      <xs:element name="Shape" type="StandardType"/>
+      <xs:element name="Size" type="StandardType"/>
+      <xs:element name="Doors" type="StandardType"/>
+      <xs:element name="Passages" type="StandardType"/>
+      <xs:element name="Feature" type="StandardType"/>
+    </xs:sequence>
+  </xs:complexType>
+
   <xs:element name="Dungeons">
     <xs:complexType>
       <xs:sequence>
@@ -36,6 +46,55 @@
         <xs:element name="Classes" type="StandardType" />
         <xs:element name="Purposes" type="DescriptionType" />
         <xs:element name="Histories" type="StandardType" />
+
+        <xs:element name="StartingArea" type="DescriptionType" />
+
+        <xs:element name="Passage" type="DescriptionType" />
+        <xs:element name="PassageWidthBranch" type="DescriptionType" />
+        <xs:element name="PassageWidthChamber" type="DescriptionType" />
+
+        <xs:element name="DoorType" type="DescriptionType" />
+        <xs:element name="BeyondADoor" type="DescriptionType" />
+
+        <xs:element name="Chamber" type="DescriptionType" />
+        <xs:element name="ChamberExits" type="DescriptionType" />
+        <xs:element name="ExitLocation" type="DescriptionType" />
+        <xs:element name="ExitType" type="DescriptionType" />
+
+        <xs:element name="Stairs" type="DescriptionType" />
+
+        <xs:element name="DeathTrap" type="DescriptionType" />
+        <xs:element name="Lair" type="DescriptionType" />
+        <xs:element name="Maze" type="DescriptionType" />
+        <xs:element name="Mine" type="DescriptionType" />
+        <xs:element name="PlanarGate" type="DescriptionType" />
+        <xs:element name="Stronghold" type="DescriptionType" />
+        <xs:element name="TempleOrShrine" type="DescriptionType" />
+        <xs:element name="Tomb" type="DescriptionType" />
+        <xs:element name="TreasureVault" type="DescriptionType" />
+        <xs:element name="GeneralChamber" type="DescriptionType" />
+
+        <xs:element name="ChamberState" type="DescriptionType" />
+        <xs:element name="ChamberContent" type="DescriptionType" />
+        <xs:element name="MonsterMotivation" type="DescriptionType" />
+        <xs:element name="DungeonHazard" type="DescriptionType" />
+        <xs:element name="Obstacle" type="DescriptionType" />
+        <xs:element name="TrapTrigger" type="DescriptionType" />
+        <xs:element name="TrapDamageSeverity" type="DescriptionType" />
+        <xs:element name="TrapEffect" type="DescriptionType" />
+        <xs:element name="TrickObject" type="DescriptionType" />
+        <xs:element name="Trick" type="DescriptionType" />
+
+        <xs:element name="Noise" type="DescriptionType" />
+        <xs:element name="Air" type="DescriptionType" />
+        <xs:element name="Odor" type="DescriptionType" />
+        <xs:element name="GeneralFeature" type="DescriptionType" />
+        <xs:element name="GeneralFurnishing" type="DescriptionType" />
+        <xs:element name="ReligiousArticle" type="DescriptionType" />
+        <xs:element name="MageFurnishing" type="DescriptionType" />
+        <xs:element name="UtensilAndPersonalItems" type="DescriptionType" />
+        <xs:element name="ContainerContent" type="DescriptionType" />
+        <xs:element name="BookScrollTome" type="DescriptionType" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dungeons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:noNamespaceSchemaLocation="../Schema/DungeonsSchema.xsd">
-    <!--From DMG 5e pg 99 Building a Dungeon-->
+  <!--From DMG 5e pg 99 Building a Dungeon, pg 290 Appendix A: Random Dungeons-->
   <Locations>
     <Value Text="A building in a city" Probability="16" />
     <Value Text="Catacombs or sewers beneath a city" Probability="16" />
@@ -137,4 +137,209 @@
     <Value Text="Overrun by planar creatures" Probability="1" />
     <Value Text="Site of a great miracle" Probability="1" />
   </Histories>
+  <StartingArea>
+    <Value Text="1" Probability="1">
+      <Description>Shape:Square;Size:20x20; on each wall</Description>
+    </Value>
+  </StartingArea>
+  <Passage>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Passage>
+  <PassageWidthBranch>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </PassageWidthBranch>
+  <PassageWidthChamber>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </PassageWidthChamber>
+  <DoorType>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </DoorType>
+  <BeyondADoor>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </BeyondADoor>
+  <Chamber>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Chamber>
+  <ChamberExits>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </ChamberExits>
+  <ExitLocation>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </ExitLocation>
+  <ExitType>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </ExitType>
+  <Stairs>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Stairs>
+  <DeathTrap>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </DeathTrap>
+  <Lair>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Lair>
+  <Maze>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Maze>
+  <Mine>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Mine>
+  <PlanarGate>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </PlanarGate>
+  <Stronghold>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Stronghold>
+  <TempleOrShrine>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </TempleOrShrine>
+  <Tomb>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Tomb>
+  <TreasureVault>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </TreasureVault>
+  <GeneralChamber>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </GeneralChamber>
+  <ChamberState>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </ChamberState>
+  <ChamberContent>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </ChamberContent>
+  <MonsterMotivation>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </MonsterMotivation>
+  <DungeonHazard>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </DungeonHazard>
+  <Obstacle>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Obstacle>
+  <TrapTrigger>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </TrapTrigger>
+  <TrapDamageSeverity>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </TrapDamageSeverity>
+  <TrapEffect>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </TrapEffect>
+  <TrickObject>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </TrickObject>
+  <Trick>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Trick>
+  <Noise>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Noise>
+  <Air>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Air>
+  <Odor>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </Odor>
+  <GeneralFeature>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </GeneralFeature>
+  <GeneralFurnishing>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </GeneralFurnishing>
+  <ReligiousArticle>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </ReligiousArticle>
+  <MageFurnishing>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </MageFurnishing>
+  <UtensilAndPersonalItems>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </UtensilAndPersonalItems>
+  <ContainerContent>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </ContainerContent>
+  <BookScrollTome>
+    <Value Text="Temp" Probability="0">
+      <Description>Temp</Description>
+    </Value>
+  </BookScrollTome>
 </Dungeons>
